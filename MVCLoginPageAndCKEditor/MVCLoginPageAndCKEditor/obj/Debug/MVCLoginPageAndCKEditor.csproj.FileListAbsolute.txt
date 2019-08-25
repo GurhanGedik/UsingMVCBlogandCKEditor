@@ -67,3 +67,7 @@ C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageA
 C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\obj\Debug\MVCLoginPageAndCKEditor.csproj.CopyComplete
 C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\obj\Debug\MVCLoginPageAndCKEditor.dll
 C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\obj\Debug\MVCLoginPageAndCKEditor.pdb
+C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\bin\EntityFramework.dll
+C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\bin\EntityFramework.SqlServer.dll
+C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\bin\EntityFramework.xml
+C:\Users\gürhan\Documents\GitHub\Home-page-and-ck-editor-with-MVC\MVCLoginPageAndCKEditor\MVCLoginPageAndCKEditor\bin\EntityFramework.SqlServer.xml
