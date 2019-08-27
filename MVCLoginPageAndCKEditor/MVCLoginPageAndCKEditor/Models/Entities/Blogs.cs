@@ -11,5 +11,6 @@ namespace MVCLoginPageAndCKEditor.Models.Entities
         public string Title { get; set; }
         public string Text { get; set; }
         public DateTime Time { get; set; }
+        public int UserID { get; set; }
     }
 }
