@@ -69,7 +69,8 @@ namespace MVCLoginPageAndCKEditor.Controllers
                     if (user != null)
                     {
                         FormsAuthentication.SetAuthCookie(user.Name, true);
-                        return RedirectToAction("Index", "Home");
+                        ViewBag.aa = user.ID;
+                        return RedirectToAction("EnterBlog", "Home");
                     }
                 }
             }
