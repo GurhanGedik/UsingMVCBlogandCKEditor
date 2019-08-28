@@ -419,6 +419,7 @@
     <Content Include="js\examples\examples.timeline.js" />
     <Content Include="js\theme.init.js" />
     <Content Include="js\theme.js" />
+    <Content Include="login.html" />
     <Content Include="pages-signin.html" />
     <Content Include="pages-signup.html" />
     <Content Include="pages-timeline.html" />

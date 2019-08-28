@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using MVCLoginPageAndCKEditor.Models.VM;
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -53,7 +54,7 @@
                                         <div class="info">
                                             <p class="text-white">1281</p>
                                             <p class="text-white">@ViewBag.welcome</p>
-</div>
+                                        </div>
                                     </div>
                                     <div class="summary-footer">
                                         <a href="/Home/Index" class="text-uppercase">Home Page</a>
@@ -105,36 +106,40 @@
                                         </div>
                                     </div>
                                     <div class="summary-footer">
-                                        <a href="/Home/EnterBlog" class="text-uppercase">Add Blog</a>
+                                        <a href="/Home/EnterBlog/0" class="text-uppercase">Add Blog</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-                <div class="col-12">
-                    <section class="card mb-4">
-                        <div class="card-body bg-secondary">
-                            <div class="widget-summary">
-                                <div class="widget-summary-col widget-summary-col-icon">
-                                    <div class="summary-icon">
-                                        <i class="fas fa-door-open"></i>
-                                    </div>
-                                </div>
-                                <div class="widget-summary-col">
-                                    <div class="summary">
-                                        <h4 class="title amount">Exit Blog</h4>
-                                        <div class="info">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="col-12">
+                        <section class="card mb-4">
+                            <div class="card-body bg-secondary">
+                                <div class="widget-summary">
+                                    <div class="widget-summary-col widget-summary-col-icon">
+                                        <div class="summary-icon">
+                                            <i class="fas fa-door-open"></i>
                                         </div>
                                     </div>
-                                    <div class="summary-footer">
-                                        <a href="/Home/LogOut" class="text-uppercase">Exit</a>
+                                    <div class="widget-summary-col">
+                                        <div class="summary">
+                                            <h4 class="title amount">Exit Blog</h4>
+                                            <div class="info">
+                                            </div>
+                                        </div>
+                                        <div class="summary-footer">
+                                            <a href="/Home/LogOut" class="text-uppercase">Exit</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                </div>
+                        </section>
+                    </div>
+                }
+
             </div>
             <div class="col-sm-8 col-12">
                 @RenderBody()
