@@ -19,6 +19,7 @@ namespace MVCLoginPageAndCKEditor.Controllers
                 ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
                 ProjectContext db = new ProjectContext();
                 var blogs = db.Blog.ToList();
+                ViewBag.TotalBlog = blogs.Count();
                 return View(blogs);
             }
             return RedirectToAction("SignIn", "Home");
@@ -69,7 +70,7 @@ namespace MVCLoginPageAndCKEditor.Controllers
                     if (user != null)
                     {
                         FormsAuthentication.SetAuthCookie(user.Name, true);
-                        return RedirectToAction("EnterBlog", "Home");
+                        return RedirectToAction("Index", "Home");
                     }
                 }
             }
@@ -78,18 +79,18 @@ namespace MVCLoginPageAndCKEditor.Controllers
         }
 
 
-        public ActionResult EnterBlog(int id)
+        public ActionResult EnterBlog(/*int id*/)
         {
             if (User.Identity.IsAuthenticated)
             {
-                if (id != 0)
-                {
+                //if (id != 0)
+                //{
 
-                    ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
-                    ProjectContext db = new ProjectContext();
-                    Blogs blog = db.Blog.Find(id);
-                    return View(blog);
-                }
+                //    ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
+                //    ProjectContext db = new ProjectContext();
+                //    Blogs blog = db.Blog.Find(id);
+                //    return View(blog);
+                //}
 
                 ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
                 return View();

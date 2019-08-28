@@ -3,7 +3,7 @@
     ViewBag.Title = "EnterBlog";
     Layout = "~/Views/Shared/_Homepage.cshtml";
 }
-@model MVCLoginPageAndCKEditor.Models.Entities.Blogs
+@*@model MVCLoginPageAndCKEditor.Models.Entities.Blogs*@
 
 <div class="row">
     <div class="col-lg-12">
@@ -18,7 +18,7 @@
                         <div class="form-group row">
                             <label class="col-lg-2 control-label text-lg-right pt-2" for="textareaDefault">Title</label>
                             <div class="col-lg-6">
-                                <input name="Title" class="form-control" data-plugin-maxlength="" maxlength="20" value="@Model.Title">
+                                <input name="Title" class="form-control" data-plugin-maxlength="" maxlength="20" @*value="@Model.Title"*@>
                                 <p>
                                     <code>max-length</code> set to 20.
                                 </p>
@@ -28,7 +28,7 @@
                             <label class="col-lg-2 control-label text-lg-right pt-2" for="textareaDefault">Text</label>
                             <div class="col-lg-10">
 
-                                @Html.TextArea("article", new { @id = "ckeditor", @class = "ckeditor" ,@value= @Model.Text })
+                                @Html.TextArea("article", new { @id = "ckeditor", @class = "ckeditor" @*,@value= @Model.Text*@ })
                                 <div class="mt-3">
                                     <button type="submit" class="mb-1 mt-1 mr-1 btn btn-quaternary "><i class="fas fa-plus"></i> Add</button>
                                 </div>
