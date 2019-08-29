@@ -25,7 +25,7 @@
                         <div class="tm-box appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="50">
                             <h2 class="mt-0">@item.Title</h2>
                             <p>
-                                @item.Text
+                                @Html.Raw(item.Text)
                             </p>
                             <div class="card-footer text-right">
                                @* <a href="/Home/EnterBlog/@item.ID" type="button" class="mb-1 mt-1 mr-1 btn btn-default"><i class="fas fa-sync"></i> Update</a>*@
