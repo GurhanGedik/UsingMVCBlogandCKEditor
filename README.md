@@ -13,9 +13,8 @@ Hello The goal of the MVC Blog Project is to add, delete, and update blog posts 
   <li>You can add as many blogs as you want from the Add blog section, you can delete and update operations.</li>
   <li>It is not possible to add a blog in the project without any user logging in.</li>
   <li>If a user remains inactive for 5 minutes, he / she will automatically log out of the blog. You can set this time in Web.config. </li>
-  <li>
-    Projede Code first kullanılarak database oluşturuldu,"ProjectContext.cs" class'ından kendi SQL ayarlarınızı girdikten sonra, sorunsuz bir şekilde kullanabilirsiniz <br/><br/>  
-  </li>  
+  <li>In this project, the database is created using code first method.
+After you enter your own sql connection string from project context.cs class, you can run the project without any problem.</li>  
 </ul>
 
 ![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
@@ -61,8 +60,7 @@ Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bi
   <li>Blog ekle bölümünden istediğiniz kadar blog ekleyebilir dilerseniz silme ve güncelleme işlemlerini gerçekleştirebilirsiniz.</li>
   <li>Herhangi bir kullanıcı Login olmadan projede blog eklemeniz mümkün değildir. </li>
   <li>Bir kullanıcı 5 dk hareketsiz kalırsa blogtan otomatik olarak çıkış yapmaktadır bu süreyi Web.config'ten ayarlayabilirsiniz. </li>
-  <li>In this project, the database is created using code first method.
-After you enter your own sql connection string from project context.cs class, you can run the project without any problem.</li>  
+  <li>Projede Code first kullanılarak database oluşturuldu,"ProjectContext.cs" class'ından kendi SQL ayarlarınızı girdikten sonra, sorunsuz bir şekilde kullanabilirsiniz</li>  
 </ul>
 
 ![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
