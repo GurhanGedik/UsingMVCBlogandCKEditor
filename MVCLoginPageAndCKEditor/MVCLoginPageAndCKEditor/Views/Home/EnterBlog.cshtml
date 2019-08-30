@@ -1,6 +1,15 @@
 ﻿@model MVCLoginPageAndCKEditor.Models.Entities.Blogs
 @{
-    ViewBag.Title = "EnterBlog";
+    if (ViewBag.ControlAdd != 0)
+    {
+        ViewBag.Title = "Update Blog";
+
+    }
+    else
+    {
+        ViewBag.Title = "Enter Blog";
+
+    }
     Layout = "~/Views/Shared/_Homepage.cshtml";
 }
 
@@ -10,7 +19,17 @@
         <section class="card tm-box appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="50">
             <header class="card-header">
                 <h2 class="card-title">
-                    Enter Blog
+                    @if (ViewBag.ControlAdd != 0)
+                    {
+                        @Html.Label("Update Blog")
+
+                    }
+                    else
+                    {
+                        @Html.Label("Enter Blog")
+
+                    }
+
                 </h2>
             </header>
             <div class="card-body">

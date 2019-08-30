@@ -10,18 +10,18 @@ namespace MVCLoginPageAndCKEditor.Models.VM
     public class LoginVM
     {
         [
-            EmailAddress(ErrorMessage = "E-posta Formatinda giris yapiniz."),
-            Required(ErrorMessage = "E-posta Giriniz."),
-            DisplayName("E-posta")
+            EmailAddress(ErrorMessage = "Login in the e-mail form."),
+            Required(ErrorMessage = "Please enter your e-mail."),
+            DisplayName("E-mail")
         ]
         public string Email { get; set; }
         [
-            Required(ErrorMessage = "Parola Giriniz."),
-            DisplayName("Parola")
+            Required(ErrorMessage = "Enter Password."),
+            DisplayName("Password")
         ]
         public string Password { get; set; }
         [
-            DisplayName("Beni hatırla")
+            DisplayName("Remember me")
         ]
         public bool IsPersistant { get; set; }
     }
