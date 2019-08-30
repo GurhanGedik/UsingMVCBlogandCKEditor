@@ -12,20 +12,17 @@ Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bi
   <li>Bir kullanıcı 5 dk hareketsiz kalırsa blogtan otomatik olarak çıkış yapmaktadır bu süreyi Web.config'ten ayarlayabilirsiniz. </li>
   <li>
     Projede Code first kullanılarak database oluşturuldu "ProjectContext.cs" class'ından kendi SQL ayarlarınızı girdikten sonra sorunsuz bir şekilde kullanabilirsiniz <br/><br/>  
-  </li>
-  
+  </li>  
 </ul>
+
 ![Projenin ana ekran resmi](https://raw.githubusercontent.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
 
 ## Poroje Görselleri
 <ul>
-  <li>Projenin </li>
+  <li>Projeye giriş yapabilmek için kullanıcı kayıt ekranı</li>
 </ul>
-![Projenin ana ekran resmi](https://raw.githubusercontent.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
+![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
 
-<ul>
-  <li>Projede 4 katmanlı bir mimari kullanıldı.</li>
-</ul>
 
 # UYARI
 <ul>
