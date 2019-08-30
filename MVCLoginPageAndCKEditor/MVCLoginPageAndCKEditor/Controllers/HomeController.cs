@@ -79,21 +79,28 @@ namespace MVCLoginPageAndCKEditor.Controllers
         }
 
 
-        public ActionResult EnterBlog(/*int id*/)
+        public ActionResult EnterBlog(int id)
         {
             if (User.Identity.IsAuthenticated)
             {
-                //if (id != 0)
-                //{
-
-                //    ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
-                //    ProjectContext db = new ProjectContext();
-                //    Blogs blog = db.Blog.Find(id);
-                //    return View(blog);
-                //}
-
-                ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
-                return View();
+                if (id != 0)
+                {
+                    ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
+                    ProjectContext db = new ProjectContext();
+                    Blogs blog = db.Blog.Find(id);
+                    ViewBag.ControlUpdate = 0;
+                    return View(blog);
+                }
+                else
+                {
+                    Blogs blog = new Blogs();
+                    blog.Title = "";
+                    blog.Text = "";
+                    ViewBag.welcome = "Welcome " + User.Identity.Name.ToUpper();
+                    ViewBag.ControlAdd = 0;
+                    return View(blog);
+                }
+                
             }
             return RedirectToAction("SignIn", "Home");
         }
@@ -103,13 +110,26 @@ namespace MVCLoginPageAndCKEditor.Controllers
         {
             string article = frm.Get("article");
             ProjectContext db = new ProjectContext();
-            Blogs newBlog = new Blogs();
-            newBlog.Title = blg.Title;
-            newBlog.Time = DateTime.Now;
-            newBlog.Text = article;
-            db.Blog.Add(newBlog);
-            db.SaveChanges();
-            return RedirectToAction("Index", "Home");
+            Blogs blog = db.Blog.SingleOrDefault(x => x.ID == blg.ID);
+            if (blog != null)
+            {
+                blog.Title = blg.Title;
+                blog.Time = DateTime.Now;
+                blog.Text = article;
+                db.SaveChanges();
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                Blogs newBlog = new Blogs();
+                newBlog.Title = blg.Title;
+                newBlog.Time = DateTime.Now;
+                newBlog.Text = article;
+                db.Blog.Add(newBlog);
+                db.SaveChanges();
+                return RedirectToAction("Index", "Home");
+            }
+            
 
         }
 
