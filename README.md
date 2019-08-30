@@ -1,4 +1,4 @@
-# Lnguage:English
+### Language:English
 
 # Using MVC Blog and CK Editor
 ## The goal of the project
@@ -21,7 +21,7 @@ Hello The goal of the MVC Blog Project is to add, delete, and update blog posts 
 ![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
 
 ## Poroje Images
-Projeye giriş yapmak için kullanıcı kayıt ekranı
+User registration screen to log in to the project
 
 ![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
 
@@ -46,7 +46,7 @@ Blog update page
   <li>Please make sure the database settings are correct for the program to work properly.</li>
 </ul>
 
-# Lnguage:Turkish
+### Language:Turkish
 
 # MVC Blog ve CK Editor Kullanımı
 ## Projenin Amacı
