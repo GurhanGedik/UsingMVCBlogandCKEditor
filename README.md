@@ -13,8 +13,9 @@ Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bi
   <li>
     Projede Code first kullanılarak database oluşturuldu "ProjectContext.cs" class'ından kendi SQL ayarlarınızı girdikten sonra sorunsuz bir şekilde kullanabilirsiniz <br/><br/>  
   </li>
-  ![Projenin ana ekran resmi](https://raw.githubusercontent.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
+  
 </ul>
+![Projenin ana ekran resmi](https://raw.githubusercontent.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
 
 ## Poroje Görselleri
 <ul>
