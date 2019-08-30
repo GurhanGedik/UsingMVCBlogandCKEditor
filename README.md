@@ -18,14 +18,27 @@ Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bi
 ![Projenin ana ekran resmi](https://raw.githubusercontent.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
 
 ## Poroje Görselleri
-<ul>
-  <li>Projeye giriş yapabilmek için kullanıcı kayıt ekranı</li>
-</ul>
+Projeye giriş yapabilmek için kullanıcı kayıt ekranı
+
 ![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
 
+Projeye giriş yaptıktan sonra login penceresi
+
+![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingIn.png)
+
+Projenin anasayfası
+
+![Projenin ana ekran resmi](https://raw.githubusercontent.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
+
+Blog ekleme sayfası
+
+![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogEnterBlog.png)
+
+Blog güncelleme sayfası
+
+![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogUpdateBlog2.png)
 
 # UYARI
 <ul>
   <li>Programın doğru ve düzgün çalışabilmesi için lütfen database ayarlarını doğru yaptığınızdan emin olun.</li>
-  <li>Database ile ilgili gerekli dosyalar "Database Files" klasörü içerisinde yer almaktadır.</li>
 </ul>
