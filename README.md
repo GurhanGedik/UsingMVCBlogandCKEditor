@@ -1,10 +1,10 @@
 ### Language:English
 
-# Using MVC Blog and CK Editor
+# Using MVC Blog and CKEditor
 ## The goal of the project
 
-Hello The goal of the MVC Blog Project is to add, delete, and update blog posts on your blog using the ck editor. <br/><br/>
-![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
+Hello The goal of the MVC Blog Project is to add, delete, and update blog posts on your blog using the ckeditor. <br/><br/>
+![Main screenshot of the project](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
 
 ## Use of the Program
 <ul>
@@ -17,28 +17,28 @@ Hello The goal of the MVC Blog Project is to add, delete, and update blog posts 
 After you enter your own sql connection string from project context.cs class, you can run the project without any problem.</li>  
 </ul>
 
-![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
+![databe screenshot of the project](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
 
 ## Poroje Images
 User registration screen to log in to the project
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
+![User registration screen to log in to the project](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
 
 Login window after login to the project
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingIn.png)
+![Login window after login to the project](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingIn.png)
 
 Project homepage
 
-![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
+![Project homepage](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
 
 Blog insertion page
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogEnterBlog.png)
+![Blog insertion page](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogEnterBlog.png)
 
 Blog update page
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogUpdateBlog2.png)
+![Blog update page](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogUpdateBlog2.png)
 
 # WARNING
 <ul>
@@ -47,10 +47,10 @@ Blog update page
 
 ### Language:Turkish
 
-# MVC Blog ve CK Editor Kullanımı
+# MVC Blog ve CKEditor Kullanımı
 ## Projenin Amacı
 
-Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bir blog yazısını ck editör kullanarak ekleyebilir, silebilir ve güncelleyebilirsiniz. <br/><br/>
+Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bir blog yazısını ckeditör kullanarak ekleyebilir, silebilir ve güncelleyebilirsiniz. <br/><br/>
 ![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
 
 ## Programın Kullanımı
@@ -63,28 +63,28 @@ Merhaba  MVC Blog Projesi'nin amacı size ait bir blog sayfası, istediğiniz bi
   <li>Projede Code first kullanılarak database oluşturuldu,"ProjectContext.cs" class'ından kendi SQL ayarlarınızı girdikten sonra, sorunsuz bir şekilde kullanabilirsiniz</li>  
 </ul>
 
-![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
+![projenin databe ekran görüntüsü](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogProjectContext.png)
 
 ## Proje Görselleri
 Projeye giriş yapabilmek için kullanıcı kayıt ekranı
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
+![Projeye giriş yapabilmek için kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingUp.png)
 
 Projeye giriş yaptıktan sonra login penceresi
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingIn.png)
+![Projeye giriş yaptıktan sonra login penceresi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogSingIn.png)
 
 Projenin anasayfası
 
-![Projenin ana ekran resmi](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
+![Projenin anasayfası](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogHomePage.png)
 
 Blog ekleme sayfası
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogEnterBlog.png)
+![Blog ekleme sayfası](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogEnterBlog.png)
 
 Blog güncelleme sayfası
 
-![kullanıcı kayıt ekranı](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogUpdateBlog2.png)
+![Blog güncelleme sayfası](https://github.com/GurhanGedik/Home-page-and-ck-editor-with-MVC/blob/master/MVCLoginPageAndCKEditor/MVCLoginPageAndCKEditor/Project%20Pictures/MVCBlogUpdateBlog2.png)
 
 # UYARI
 <ul>
